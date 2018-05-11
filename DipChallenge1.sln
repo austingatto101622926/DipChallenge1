@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27130.2003
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "DipChallenge1_Database", "DipChallenge1_Database\DipChallenge1_Database.sqlproj", "{DFB3F34B-D020-4068-9687-12FFA9486792}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DipChallenge1_API", "DipChallenge1_API\DipChallenge1_API.csproj", "{10421C85-1285-436F-BC3F-B39C40CF7146}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,6 +19,10 @@ Global
 		{DFB3F34B-D020-4068-9687-12FFA9486792}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DFB3F34B-D020-4068-9687-12FFA9486792}.Release|Any CPU.Build.0 = Release|Any CPU
 		{DFB3F34B-D020-4068-9687-12FFA9486792}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{10421C85-1285-436F-BC3F-B39C40CF7146}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10421C85-1285-436F-BC3F-B39C40CF7146}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10421C85-1285-436F-BC3F-B39C40CF7146}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10421C85-1285-436F-BC3F-B39C40CF7146}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -58,4 +58,25 @@
   <ItemGroup>
     <Folder Include="Properties" />
   </ItemGroup>
+  <ItemGroup>
+    <Build Include="Category.sql" />
+    <Build Include="Product.sql" />
+    <Build Include="Shipping.sql" />
+    <Build Include="Segment.sql" />
+    <Build Include="Region.sql" />
+    <Build Include="Customer.sql" />
+    <Build Include="Order.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <RefactorLog Include="DipChallenge1_Database.refactorlog" />
+  </ItemGroup>
+  <ItemGroup>
+    <SqlCmdVariable Include="LoadTestData">
+      <DefaultValue>false</DefaultValue>
+      <Value>$(SqlCmdVar__1)</Value>
+    </SqlCmdVariable>
+  </ItemGroup>
+  <ItemGroup>
+    <PostDeploy Include="Script.PostDeployment.sql" />
+  </ItemGroup>
 </Project>
